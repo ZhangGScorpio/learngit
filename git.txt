@@ -2,5 +2,4 @@ git commit
 git status
 git rm
 git rm --cached git01.txt
-git commit 撤销，撤销开始
-撤销测试成功
+git commit
