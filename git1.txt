@@ -3,3 +3,4 @@ git status
 git rm
 git rm --cached git01.txt
 git commit¡£
+git branch
