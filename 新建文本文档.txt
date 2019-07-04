@@ -1,0 +1,36 @@
+今天我们一起来学习git
+git config --global user.name"Your Name"
+git config --global user.email"youreamil@eamail.com"
+git init
+git add file
+git status
+git commit -m"introduce"
+rm file
+git rm file
+git clone https://git@github.com/learngit/learngit
+git remote
+git merge --no-ff -m"introduce" dev
+git log
+git log --pretty=oneline --obbrev-commit
+git checkout -b dev
+git checkout master
+git reset --hard HEAD^
+git reset HEAD file
+cat file
+git remote add origin git@github.com:账户名/仓库名.git
+git remote rm origin 
+git branch -d dev
+git stash
+git stash pop
+git branch -D dev
+git push origin master
+git tag name
+git tag
+git tag name commitId
+git tag -a name -m"introduce" commitId
+git tag -d name
+git push origin :refs/tags/name
+git add -f file
+git  check -ignore -v file
+git config --global alias.st status
+
